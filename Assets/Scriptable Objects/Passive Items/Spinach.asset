@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c54a2cdd04ab124094bc300cf583f6f, type: 3}
+  m_Name: Spinach
+  m_EditorClassIdentifier: Assembly-CSharp::PassiveData
+  icon: {fileID: -6180373133180794851, guid: 2773c8b939ec2ba4ca50abb75e67ebbb, type: 3}
+  maxLevel: 5
+  evolutions:
+  - name: Spicy Missile
+    condition: 0
+    consumes: 2
+    evolutionLevel: 5
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 4b3db88bf945344488e14804742d13a0, type: 2}
+      level: 8
+    outcome:
+      itemType: {fileID: 11400000, guid: d82c67893f566c54dba10b80e8261ea7, type: 2}
+      level: 1
+  baseStats:
+    name: Spinach
+    description: Increase the character damage stats
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.1
+      speed: 0
+      magnet: 0
+  growth:
+  - name: Spinach Level 2
+    description: 'Base damage up by 10% '
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.1
+      speed: 0
+      magnet: 0
+  - name: Spinach Level 3
+    description: 'Base damage up by 10% '
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.1
+      speed: 0
+      magnet: 0
+  - name: Spinach Level 4
+    description: 'Base damage up by 10% '
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.1
+      speed: 0
+      magnet: 0
+  - name: Spinach Level 5
+    description: 'Base damage up by 10% '
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.1
+      speed: 0
+      magnet: 0

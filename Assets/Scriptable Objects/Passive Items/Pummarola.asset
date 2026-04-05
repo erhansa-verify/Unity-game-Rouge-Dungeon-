@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c54a2cdd04ab124094bc300cf583f6f, type: 3}
+  m_Name: Pummarola
+  m_EditorClassIdentifier: Assembly-CSharp::PassiveData
+  icon: {fileID: -5857710155181142934, guid: 2773c8b939ec2ba4ca50abb75e67ebbb, type: 3}
+  maxLevel: 5
+  evolutionData:
+  - name: Soul Eater
+    condition: 1
+    consumes: 2
+    evolutionLevel: 2
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 25af7976969aca44b8c6bf77d9fb7b0e, type: 2}
+      level: 2
+    outcome:
+      itemType: {fileID: 11400000, guid: 563a6c604a876e4479903ff70cea44b3, type: 2}
+      level: 1
+  baseStats:
+    name: Pummarola
+    description: Character recovers 0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  growth:
+  - name: Pummarola Level 2
+    description: Recovery increases by 0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: Pummarola Level 3
+    description: Recovery increases by 0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: Pummarola Level 4
+    description: Recovery increases by 0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: Pummarola Level 5
+    description: Recovery increases by 0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0

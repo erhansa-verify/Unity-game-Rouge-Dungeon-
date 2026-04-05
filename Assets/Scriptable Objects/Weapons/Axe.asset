@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 830a0f7bec570ca4cbf74dc78503848f, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  icon: {fileID: -2070019825572486596, guid: 2773c8b939ec2ba4ca50abb75e67ebbb, type: 3}
+  maxLevel: 2
+  evolutionData: []
+  behaviour: AxeWeapon
+  baseStats:
+    name: Axe
+    description: Deals a lot of damage.
+    projectilePrefab: {fileID: 8150903412780466573, guid: e8888ddffeedc0d4c8409cda1e23a7ab, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 15
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  linearGrowth:
+  - name: Level 2 Axe
+    description: Increases damage
+    projectilePrefab: {fileID: 8150903412780466573, guid: e8888ddffeedc0d4c8409cda1e23a7ab, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 6
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  randomGrowth: []

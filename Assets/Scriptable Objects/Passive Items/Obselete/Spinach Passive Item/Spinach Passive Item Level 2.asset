@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140e93ae04138754aadfd38960970069, type: 3}
+  m_Name: Spinach Passive Item Level 2
+  m_EditorClassIdentifier: Assembly-CSharp::PassiveItemScriptableObject
+  multiplier: 150
+  level: 2
+  nextLevelPrefab: {fileID: 0}
+  name: Spinach Level 2
+  description: Increase Might by 150%
+  icon: {fileID: -6180373133180794851, guid: 2773c8b939ec2ba4ca50abb75e67ebbb, type: 3}
